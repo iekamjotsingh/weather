@@ -104,10 +104,12 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    display:none;
   }
   .video-bg{
     width: auto;
     height: auto;
+    display:none;
   }
   .container{
     width: 90%;
