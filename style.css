@@ -109,4 +109,6 @@ body {
   .feelslike,.timenow,.actual{
     margin: 8px 0px;
   }
+  .video-bg{
+  height:100vh;}
 }
