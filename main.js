@@ -18,7 +18,7 @@
 
     // function
     function data() {
-        const apiCall = fetch(`http://api.weatherapi.com/v1/current.json?key=667f2359c5f74355a7463248211501&q=${finalcity}`)
+        const apiCall = fetch(`https://api.weatherapi.com/v1/current.json?key=667f2359c5f74355a7463248211501&q=${finalcity}`)
         .then(result=>{
             console.log(result);
             return result.json();
