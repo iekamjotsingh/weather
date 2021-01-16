@@ -40,6 +40,6 @@
             document.querySelector('.how-it-feels').innerHTML =weatherNow;
         })
         .catch(error =>{
-            document.querySelector('.cityname-heading').textContent =`Can't find your location`;
+            console.log(error)
         })
     };
