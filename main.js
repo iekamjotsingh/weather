@@ -40,6 +40,7 @@
             document.querySelector('.how-it-feels').innerHTML =weatherNow;
         })
         .catch(error =>{
+            document.querySelector('.cityname-heading').textContent ='No Data Available';
             console.log(error)
         })
     };
